@@ -16,7 +16,7 @@ namespace FML
     {
         public static string _sConString = ConfigurationSettings.AppSettings["strcon"];
 
-        public static string _system_name = "-";
+        public static string _system_name = "-";   
         public static string HMI_INITIATE = "";
         public static string fml_id = "-";
         public static string fml_date = "";

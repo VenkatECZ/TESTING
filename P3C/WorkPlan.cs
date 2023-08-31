@@ -84,7 +84,7 @@ namespace P3C
                 DateTime dt1 = Convert.ToDateTime(workplan_grd.Rows[index].Cells[0].Value.ToString());
                 string date = "";
                 if (DateTime.Now.ToString().Contains('-'))
-                {
+                { 
                     date = dt1.ToString("dd-MM-yyyy 00:00:00");
                 }
                 else
