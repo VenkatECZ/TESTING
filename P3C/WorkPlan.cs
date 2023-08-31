@@ -75,7 +75,7 @@ namespace P3C
         }
         public void save()
         {
-            bool rdr2 = false;
+            bool rdr2 = false;    
             for (int index = 0; index < workplan_grd.Rows.Count - 1; index++)
             {
                 string _squery3 = "Select * from Tbl_Work_Plan";
